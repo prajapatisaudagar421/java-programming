@@ -10,11 +10,12 @@ static void decimalToBinary(int num) {
 		i++;
 	}
 	for(int j = i-1;j>=0;j--) {
-		System.out.println(binary[j]+" ");
+		System.out.print(binary[j]+" ");
 	}
 }
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		decimalToBinary(8);
 
 	}
 
